@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutterappbar/tabs/tabs_page.dart';
 import 'package:flutterappbar/page/app_bar_demo.dart';
+import 'package:flutterappbar/tabs/tab_bar_controller.dart';
 final routes = {
   '/tabs':(context)=>TabsPage(),
   '/appbar':(context)=>AppBarDemoPage(),
+  '/tabbar':(context)=>TabBarControllerPage(),
 };
 
 

@@ -15,6 +15,17 @@ class HomePage extends StatelessWidget {
               Navigator.pushNamed(context, '/appbar');
             },
           ),
+          Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: RaisedButton(
+              color: Theme.of(context).primaryColor,
+              textTheme: ButtonTextTheme.primary,
+              child: Text("跳轉到TabBarControllerPage"),
+              onPressed:(){
+                Navigator.pushNamed(context, '/tabbar');
+              },
+            ),
+          )
         ],
       ),
     );
